@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DESTRUCTO BATS - Limited edition NFT collection featuring explosive baseball bats with unique destruction physics">
+    <meta name="keywords" content="NFT, destructo bats, crypto art, digital collectibles, baseball bats, blockchain">
+    <title>DESTRUCTO BATS | @shl0ms NFT Collection</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes glitch {
+            0% { transform: translate(0) }
+            20% { transform: translate(-2px, 2px) }
+            40% { transform: translate(-2px, -2px) }
+            60% { transform: translate(2px, 2px) }
+            80% { transform: translate(2px, -2px) }
+            100% { transform: translate(0) }
+        }
+        .bat-hover:hover {
+            animation: glitch 0.3s infinite;
+            color: #ff0066;
+        }
+        .bat-card:hover .bat-image {
+            transform: rotate(15deg);
+            filter: hue-rotate(45deg);
+        }
+        .bat-image {
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-black text-white min-h-screen flex flex-col">
+    <header class="fixed w-full bg-black/90 backdrop-blur-sm border-b border-pink-500/20 z-50">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <a href="/generated-website-1734404290320/" class="text-2xl font-bold bat-hover">DESTRUCTO BATS</a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="/generated-website-1734404290320/gallery.html" class="hover:text-pink-500 transition">Gallery</a>
+                    <a href="/generated-website-1734404290320/mint.html" class="hover:text-pink-500 transition">Mint</a>
+                    <a href="/generated-website-1734404290320/explosions.html" class="hover:text-pink-500 transition">Explosions</a>
+                    <a href="/generated-website-1734404290320/marketplace.html" class="hover:text-pink-500 transition">Marketplace</a>
+                </div>
+                <button class="md:hidden">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 pt-24">
+        <section class="mb-16">
+            <h1 class="text-5xl font-bold mb-8 text-center bat-hover">DESTRUCTO BATS</h1>
+            <p class="text-xl text-center text-gray-400 max-w-2xl mx-auto">The world's first NFT collection featuring baseball bats with unique destruction physics. Each bat is programmatically generated with rare attributes and explosive capabilities.</p>
+        </section>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="p-6 border border-pink-500/20 rounded-lg hover:border-pink-500 transition bat-card">
+                <h2 class="text-xl font-bold mb-4">TITANIUM SMASHER #1337</h2>
+                <div class="aspect-square bg-gradient-to-br from-pink-500/20 to-purple-500/20 rounded-lg mb-4 bat-image"></div>
+                <p class="text-gray-400">Rare titanium bat with explosive core. Destruction rating: 95/100</p>
+                <div class="mt-4 flex justify-between items-center">
+                    <span class="text-pink-500">Ξ 2.5</span>
+                    <a href="/generated-website-1734404290320/marketplace/1337.html" class="px-4 py-2 bg-pink-500/20 hover:bg-pink-500 rounded-lg transition">View Details</a>
+                </div>
+            </div>
+
+            <div class="p-6 border border-pink-500/20 rounded-lg hover:border-pink-500 transition bat-card">
+                <h2 class="text-xl font-bold mb-4">NEON DESTROYER #420</h2>
+                <div class="aspect-square bg-gradient-to-br from-purple-500/20 to-blue-500/20 rounded-lg mb-4 bat-image"></div>
+                <p class="text-gray-400">Cyberpunk edition with built-in LED destruction tracking</p>
+                <div class="mt-4 flex justify-between items-center">
+                    <span class="text-pink-500">Ξ 1.8</span>
+                    <a href="/generated-website-1734404290320/marketplace/420.html" class="px-4 py-2 bg-pink-500/20 hover:bg-pink-500 rounded-lg transition">View Details</a>
+                </div>
+            </div>
+
+            <div class="p-6 border border-pink-500/20 rounded-lg hover:border-pink-500 transition bat-card">
+                <h2 class="text-xl font-bold mb-4">QUANTUM BREAKER #777</h2>
+                <div class="aspect-square bg-gradient-to-br from-green-500/20 to-yellow-500/20 rounded-lg mb-4 bat-image"></div>
+                <p class="text-gray-400">Quantum-enhanced bat with multiverse destruction capabilities</p>
+                <div class="mt-4 flex justify-between items-center">
+                    <span class="text-pink-500">Ξ 3.2</span>
+                    <a href="/generated-website-1734404290320/marketplace/777.html" class="px-4 py-2 bg-pink-500/20 hover:bg-pink-500 rounded-lg transition">View Details</a>
+                </div>
+            </div>
+        </div>
+
+        <section class="mt-16 p-8 border border-pink-500/20 rounded-lg">
+            <h2 class="text-3xl font-bold mb-6">Latest Destruction Stats</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div>
+                    <p class="text-4xl font-bold text-pink-500">1,337</p>
+                    <p class="text-gray-400">Total Bats Minted</p>
+                </div>
+                <div>
+                    <p class="text-4xl font-bold text-pink-500">420K</p>
+                    <p class="text-gray-400">Objects Destroyed</p>
+                </div>
+                <div>
+                    <p class="text-4xl font-bold text-pink-500">69 ETH</p>
+                    <p class="text-gray-400">Trading Volume</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-black/90 border-t border-pink-500/20 mt-16">
+        <div class="container mx-auto px-4 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">DESTRUCTO BATS</h3>
+                    <p class="text-gray-400">The most explosive NFT collection on the blockchain.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/generated-website-1734404290320/terms.html" class="text-gray-400 hover:text-pink-500">Terms</a></li>
+                        <li><a href="/generated-website-1734404290320/privacy.html" class="text-gray-400 hover:text-pink-500">Privacy</a></li>
+                        <li><a href="/generated-website-1734404290320/discord.html" class="text-gray-400 hover:text-pink-500">Discord</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="https://twitter.com/destructobats" class="text-gray-400 hover:text-pink-500">Twitter</a>
+                        <a href="https://opensea.io/collection/destructobats" class="text-gray-400 hover:text-pink-500">OpenSea</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-pink-500/20 text-center text-gray-400">
+                <p>&copy; 2024 DESTRUCTO BATS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Experience the explosive power of DESTRUCTO BATS NFT collection. View our latest bat explosions and destruction physics simulations.">
+    <meta name="keywords" content="NFT, destructo bats, explosion art, digital collectibles, blockchain art">
+    <title>DESTRUCTO BATS | Explosive NFT Collection</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes glitch {
+            0% { transform: translate(0) }
+            20% { transform: translate(-2px, 2px) }
+            40% { transform: translate(-2px, -2px) }
+            60% { transform: translate(2px, 2px) }
+            80% { transform: translate(2px, -2px) }
+            100% { transform: translate(0) }
+        }
+        @keyframes explosion {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.5); opacity: 0.5; }
+            100% { transform: scale(2); opacity: 0; }
+        }
+        .bat-hover:hover {
+            animation: glitch 0.3s infinite;
+            color: #ff0066;
+        }
+        .explosion-card:hover .explosion-effect {
+            animation: explosion 0.8s ease-out;
+        }
+    </style>
+</head>
+<body class="bg-black text-white min-h-screen flex flex-col">
+    <header class="fixed w-full bg-black/90 backdrop-blur-sm border-b border-pink-500/20 z-50">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <a href="/generated-website-1734404290320/home.html" class="text-2xl font-bold bat-hover">DESTRUCTO BATS</a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="/generated-website-1734404290320/gallery.html" class="hover:text-pink-500 transition">Gallery</a>
+                    <a href="/generated-website-1734404290320/mint.html" class="hover:text-pink-500 transition">Mint</a>
+                    <a href="/generated-website-1734404290320/explosions.html" class="hover:text-pink-500 transition">Explosions</a>
+                    <a href="/generated-website-1734404290320/marketplace.html" class="hover:text-pink-500 transition">Marketplace</a>
+                </div>
+                <button class="md:hidden">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 pt-24">
+        <section class="mb-16">
+            <h1 class="text-4xl font-bold mb-8 text-center bat-hover">EXPLOSIVE MOMENTS</h1>
+            <p class="text-xl text-gray-400 text-center mb-12">Witness the destructive beauty of our most iconic bat explosions</p>
+        </section>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="explosion-card p-6 border border-pink-500/20 rounded-lg hover:border-pink-500 transition">
+                <h2 class="text-xl font-bold mb-4">SUPERNOVA BAT #1337</h2>
+                <div class="aspect-square bg-gradient-to-br from-pink-500/20 to-purple-500/20 rounded-lg mb-4 explosion-effect"></div>
+                <p class="text-gray-400">Legendary bat with quantum explosion mechanics - 50 ETH damage per swing</p>
+                <div class="mt-4 flex justify-between items-center">
+                    <span class="text-pink-500">Last Explosion: 2h ago</span>
+                    <a href="/generated-website-1734404290320/explosion/1337.html" class="text-sm text-white bg-pink-500/20 px-4 py-2 rounded-full hover:bg-pink-500 transition">View Explosion</a>
+                </div>
+            </div>
+
+            <div class="explosion-card p-6 border border-pink-500/20 rounded-lg hover:border-pink-500 transition">
+                <h2 class="text-xl font-bold mb-4">PLASMA BAT #420</h2>
+                <div class="aspect-square bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-lg mb-4 explosion-effect"></div>
+                <p class="text-gray-400">Rare plasma-infused bat with chain reaction destruction capabilities</p>
+                <div class="mt-4 flex justify-between items-center">
+                    <span class="text-pink-500">Last Explosion: 5h ago</span>
+                    <a href="/generated-website-1734404290320/explosion/420.html" class="text-sm text-white bg-pink-500/20 px-4 py-2 rounded-full hover:bg-pink-500 transition">View Explosion</a>
+                </div>
+            </div>
+
+            <div class="explosion-card p-6 border border-pink-500/20 rounded-lg hover:border-pink-500 transition">
+                <h2 class="text-xl font-bold mb-4">VOID BAT #666</h2>
+                <div class="aspect-square bg-gradient-to-br from-red-500/20 to-black rounded-lg mb-4 explosion-effect"></div>
+                <p class="text-gray-400">Ultimate destruction bat with black hole implosion physics</p>
+                <div class="mt-4 flex justify-between items-center">
+                    <span class="text-pink-500">Last Explosion: 1d ago</span>
+                    <a href="/generated-website-1734404290320/explosion/666.html" class="text-sm text-white bg-pink-500/20 px-4 py-2 rounded-full hover:bg-pink-500 transition">View Explosion</a>
+                </div>
+            </div>
+        </div>
+
+        <section class="mt-16 p-8 border border-pink-500/20 rounded-lg">
+            <h2 class="text-2xl font-bold mb-6">EXPLOSION LEADERBOARD</h2>
+            <div class="space-y-4">
+                <div class="flex justify-between items-center p-4 bg-pink-500/10 rounded-lg">
+                    <span class="font-bold">1. SUPERNOVA BAT #1337</span>
+                    <span class="text-pink-500">2.5M ETH Damage</span>
+                </div>
+                <div class="flex justify-between items-center p-4 bg-pink-500/5 rounded-lg">
+                    <span class="font-bold">2. VOID BAT #666</span>
+                    <span class="text-pink-500">1.8M ETH Damage</span>
+                </div>
+                <div class="flex justify-between items-center p-4 bg-pink-500/5 rounded-lg">
+                    <span class="font-bold">3. PLASMA BAT #420</span>
+                    <span class="text-pink-500">1.2M ETH Damage</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-black/90 border-t border-pink-500/20 mt-16">
+        <div class="container mx-auto px-4 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">DESTRUCTO BATS</h3>
+                    <p class="text-gray-400">The most explosive NFT collection on the blockchain.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/generated-website-1734404290320/terms.html" class="text-gray-400 hover:text-pink-500">Terms</a></li>
+                        <li><a href="/generated-website-1734404290320/privacy.html" class="text-gray-400 hover:text-pink-500">Privacy</a></li>
+                        <li><a href="/generated-website-1734404290320/discord.html" class="text-gray-400 hover:text-pink-500">Discord</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="https://twitter.com/destructobats" class="text-gray-400 hover:text-pink-500">Twitter</a>
+                        <a href="https://opensea.io/collection/destructobats" class="text-gray-400 hover:text-pink-500">OpenSea</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-pink-500/20 text-center text-gray-400">
+                <p>&copy; 2024 DESTRUCTO BATS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
